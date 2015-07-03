@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    tools:context="mydemos.com.tipcalc.AirportActivity">
+
+
+
+    <TextView
+        android:layout_column="1"
+        android:text="Calculate skycap tip"
+        android:textSize="30dp"
+        android:textColor="@android:color/holo_purple"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tv_Sky"
+        android:layout_gravity="left"
+        android:padding="10dip" />
+
+    <EditText
+
+        android:hint="Enter number of bags"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/et_Sky"
+        android:background="@drawable/edit_text_style"
+        android:padding="10dip"
+        android:inputType="number"
+        android:layout_margin="4dp"
+        />
+    <Button
+
+        android:text = "Calculate"
+        android:id="@+id/calc"
+        android:padding = "10dip"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_margin="4dp"
+        />
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:text= "# of bags:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"
+
+            android:id="@+id/bag_num"
+            android:textSize="25dp"
+            android:padding="10dp"
+            />
+        <TextView
+            android:layout_column="2"
+            android:text = "Tip:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:padding="5dip"
+            android:id="@+id/tip"
+            />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:id="@+id/bag_amt"
+            android:textSize="25dp"
+            android:padding="5dp"
+            android:layout_margin="4dp"
+
+            />
+        <TextView
+            android:layout_column="2"
+            android:id="@+id/final_result"
+            android:text="Tip Amount"
+            android:textSize="25dp"
+            android:padding="5dp"
+            android:background="@color/white"
+            android:layout_margin="4dp"
+
+            />
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="post_strings">
+        <item>Restaurant</item>
+        <item>Hairdresser</item>
+        <item>Taxi and Shuttle</item>
+        <item>Airport</item>
+        <item>Tour Guide</item>
+
+    </string-array>
+    <array name="post_pics">
+        <item>@drawable/restaurant</item>
+        <item>@drawable/hairdresser</item>
+        <item>@drawable/taxi</item>
+        <item>@drawable/airport</item>
+        <item>@drawable/tour_guide</item>
+
+    </array>
+    <array name="post_border">
+        <item>@drawable/borders</item>
+        <item>@drawable/borders</item>
+        <item>@drawable/borders</item>
+        <item>@drawable/borders</item>
+        <item>@drawable/borders</item>
+    </array>
+
+</resources>

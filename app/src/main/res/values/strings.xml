@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TipCalc</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">App Info</string>
+    <string name="postG">Green Share</string>
+    <string name="postR">Red Share</string>
+    <string name="user_name">Marta CC</string>
+    <string name="title_activity_green">GreenActivity</string>
+    <string name="title_activity_red">RedActivity</string>
+    <string name="g_share">You have green shared this post.</string>
+    <string name="r_share">You have red shared this post.</string>
+    <string name="tip">Zip Tip Calculator</string>
+    <string name="title_activity_restaurant">At the Restaurant</string>
+    <string name="title_activity_hairdresser">At the Hairdresser</string>
+    <string name="title_activity_taxi">After the trip</string>
+    <string name="title_activity_airport">At the Airport</string>
+    <string name="title_activity_tour_guide">After the tour</string>
+    <string name="enter">Enter bill total</string>
+    <string name="fifteen">15 %</string>
+    <string name="eighteen">18 %</string>
+    <string name="twenty">20 %</string>
+</resources>

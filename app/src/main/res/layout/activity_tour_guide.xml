@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    tools:context="mydemos.com.tipcalc.TourGuideActivity">
+
+
+
+    <TextView
+        android:layout_column="1"
+        android:text="Calculate tour guide tip"
+        android:textSize="30dp"
+        android:textColor="@android:color/holo_purple"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tv_Guide"
+        android:layout_gravity="left"
+        android:padding="10dip" />
+
+    <EditText
+        android:layout_column="1"
+        android:hint="@string/enter"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/et_Guide"
+        android:background="@drawable/edit_text_style"
+        android:padding="10dip"
+        android:inputType="numberDecimal"
+        android:layout_margin="4dp"
+        />
+    <Button
+
+        android:text = "Calculate"
+        android:id="@+id/calc"
+        android:padding = "10dip"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_margin="4dp"
+        />
+    <TableRow>
+
+        <TextView
+            android:layout_column="2"
+            android:text= "Tip:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"
+            android:id="@+id/tip"
+            android:textSize="20dp"
+            android:padding="10dp"
+            />
+        <TextView
+            android:layout_column="3"
+            android:text = "New Total:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="5dip"
+            android:id="@+id/total"
+            />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="2"
+            android:text="10 %"
+            android:textSize="20dp"
+            android:padding='5dip'
+            android:id="@+id/t0"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Minimum"
+            android:textSize="25dp"
+            android:padding="5dip"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_column="2"
+            android:id="@+id/tresult10"
+            android:text="Tip Amt"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:background="@color/white"
+            android:layout_margin="4dp"
+            />
+        <TextView
+            android:layout_column="3"
+            android:id="@+id/final_result10"
+            android:text="New Total"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:background="@color/white"
+            android:layout_margin="4dp"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="2"
+            android:text="@string/fifteen"
+            android:textSize="20dp"
+            android:padding='5dip'
+            android:id="@+id/t1"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Good"
+            android:textSize="25dp"
+            android:padding="5dip"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_column="2"
+            android:id="@+id/tresult15"
+            android:text="Tip Amt"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:background="@color/white"
+            android:layout_margin="4dp"
+            />
+        <TextView
+            android:layout_column="3"
+            android:id="@+id/final_result15"
+            android:text="New Total"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:background="@color/white"
+            android:layout_margin="4dp"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="2"
+            android:text="@string/eighteen"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:id="@+id/t2"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Very Good"
+            android:textSize="25dp"
+            android:padding="5dip"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_column="2"
+            android:text="Tip Amt"
+            android:id="@+id/tresult18"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:background="@color/white"
+            android:layout_margin="4dp"
+            />
+        <TextView
+            android:layout_column="3"
+            android:id="@+id/final_result18"
+            android:text="New Total"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:background="@color/white"
+            android:layout_margin="4dp"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="2"
+            android:text="@string/twenty"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:id="@+id/t3"
+
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Excellent"
+            android:textSize="25dp"
+            android:padding="5dip"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_column="2"
+            android:text="Tip Amt"
+            android:id="@+id/tresult20"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:background="@color/white"
+            android:layout_margin="4dp"
+            />
+        <TextView
+            android:layout_column="3"
+            android:id="@+id/final_result20"
+            android:text="New Total"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:background="@color/white"
+            android:layout_margin="4dp"
+            />
+    </TableRow>
+
+</TableLayout>
